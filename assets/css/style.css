@@ -12,13 +12,23 @@ img{
 }
 
 
-  /*
-.slider{
-    position: relative;
+.prev{
+    bottom: 55px;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.733);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
 }
-/*
-.controls{
-    position:absolute;
-    top: 10px;
-    left:15px;
-}*/
+.next{
+    bottom: 55px;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.733);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+}

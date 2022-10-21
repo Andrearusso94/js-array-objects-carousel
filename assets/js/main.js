@@ -103,3 +103,25 @@ viceversa per l'ultima miniatura se l'utente clicca la freccia verso sinistra.*/
    
      newImg.classList.add('active')
    })
+
+   //function
+function next(){
+   slidesEl[visibile].classList.remove('.active')
+    if(visibile == images.length - 1){
+        visibile = 0;
+    } else{
+        visibile++;
+    }
+    hidden[visibile].classList.add('.active')
+}
+
+function prev(){
+
+    slidesEl[visibile].classList.remove('.active')
+    if(visibile == 0){
+        visibile = images.length - 1;
+    } else{
+        visibile--;
+    }
+    hidden[visibile].classList.add('.active')
+}
